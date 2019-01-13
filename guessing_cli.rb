@@ -1,4 +1,4 @@
-learn
+
 
 def run_guessing_game
  
@@ -9,7 +9,7 @@ def run_guessing_game
     winner_ramdon= rand(1..6)
     if user_number.to_i == winner_ramdon
       puts "You guessed the correct number!"
-      break
+
     else
       puts "The computer guessed #{winner_ramdon}."
     end
